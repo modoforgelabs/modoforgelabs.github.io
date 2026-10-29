@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#171b2e"/>
+      <stop offset="1" stop-color="#070810"/>
+    </radialGradient>
+    <linearGradient id="sky" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffaea2"/>
+      <stop offset=".5" stop-color="#ffc9a8"/>
+      <stop offset="1" stop-color="#ffe196"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c3558"/>
+      <stop offset="1" stop-color="#11172a"/>
+    </linearGradient>
+    <linearGradient id="roofL" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff9ee" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#ffc6b0" stop-opacity=".82"/>
+    </linearGradient>
+    <linearGradient id="roofR" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6fffb" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#b4f0d2" stop-opacity=".82"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a599ff"/>
+      <stop offset=".5" stop-color="#89afff"/>
+      <stop offset="1" stop-color="#6ee2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <!-- Horizon Circle -->
+  <path d="M10 33 A22 22 0 0 1 54 33 Z" fill="url(#sky)"/>
+  <path d="M10 33 A22 22 0 0 0 54 33 Z" fill="url(#sea)"/>
+  <!-- Frosted Petal Home -->
+  <path d="M21 27 L28 21.5 L28 35 A1.2 1.2 0 0 1 26.8 36.2 L22.2 36.2 A1.2 1.2 0 0 1 21 35 Z" fill="#ffd4be" fill-opacity=".78" stroke="#fff8f2" stroke-width=".6"/>
+  <path d="M36 21.5 L43 27 L43 35 A1.2 1.2 0 0 1 41.8 36.2 L37.2 36.2 A1.2 1.2 0 0 1 36 35 Z" fill="#b4f0d2" fill-opacity=".78" stroke="#eefff8" stroke-width=".6"/>
+  <path d="M32 16.5 L21 26.2 L21 31.2 C24.5 30 28.4 26.8 32 23.4 Z" fill="url(#roofL)" stroke="#ffffff" stroke-width=".65"/>
+  <path d="M32 16.5 L43 26.2 L43 31.2 C39.5 30 35.6 26.8 32 23.4 Z" fill="url(#roofR)" stroke="#ffffff" stroke-width=".65"/>
+  <!-- 3 Reflection / Launcher Bars -->
+  <rect x="21.5" y="39" width="21" height="2.8" rx="1.4" fill="url(#bars)"/>
+  <rect x="24" y="43.5" width="16" height="2.8" rx="1.4" fill="url(#bars)" opacity=".9"/>
+  <rect x="26.8" y="48" width="10.4" height="2.8" rx="1.4" fill="url(#bars)" opacity=".8"/>
+</svg>
