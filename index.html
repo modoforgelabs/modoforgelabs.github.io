@@ -7,16 +7,18 @@
   <meta name="description" content="ModoForge Labs makes calm, private Android apps: ModoForge, a minimalist launcher with Home modes and Mindful open, and VibeFluid, interactive live wallpapers. No ads, no account.">
   <meta name="theme-color" content="#07060e">
   <link rel="canonical" href="https://modoforgelabs.github.io/">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ModoForge Labs">
   <meta property="og:title" content="ModoForge Labs – Calm, beautiful apps for Android">
   <meta property="og:description" content="A minimalist launcher and interactive live wallpapers for Android. No ads, no account, your data stays on your phone.">
   <meta property="og:url" content="https://modoforgelabs.github.io/">
-  <meta property="og:image" content="https://modoforgelabs.github.io/assets/img/launcher-feature.png">
-  <meta property="og:image:width" content="1024">
-  <meta property="og:image:height" content="500">
+  <meta property="og:image" content="https://modoforgelabs.github.io/assets/img/labs-header-sunrise-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
   <meta name="twitter:card" content="summary_large_image">
 
   <script type="application/ld+json">
@@ -25,7 +27,7 @@
     "@type": "Organization",
     "name": "ModoForge Labs",
     "url": "https://modoforgelabs.github.io/",
-    "logo": "https://modoforgelabs.github.io/assets/favicon.svg",
+    "logo": "https://modoforgelabs.github.io/assets/img/modoforgelabs-icon.png",
     "email": "modoforgelabs@gmail.com",
     "sameAs": ["https://github.com/modoforgelabs"]
   }
@@ -39,7 +41,7 @@
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="./" aria-label="ModoForge Labs home">
-        <img src="assets/favicon.svg" alt="" width="34" height="34">
+        <img src="assets/img/modoforgelabs-icon-128.webp" alt="" width="34" height="34">
         ModoForge Labs
       </a>
       <nav class="nav" aria-label="Main">
@@ -52,6 +54,15 @@
   </header>
 
   <main id="main">
+    <figure class="labs-banner">
+      <img
+        src="assets/img/labs-header-sunrise-1200.webp"
+        srcset="assets/img/labs-header-sunrise-1200.webp 1200w, assets/img/labs-header-sunrise-2400.webp 2400w"
+        sizes="100vw"
+        alt="ModoForge Labs. A calmer phone, made with care."
+        width="2400" height="1350" fetchpriority="high">
+    </figure>
+
     <section class="hero" aria-labelledby="hero-title">
       <canvas id="forge-canvas" aria-hidden="true"></canvas>
       <div class="wrap">
