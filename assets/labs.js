@@ -7,8 +7,8 @@
   const canvas = document.getElementById("forge-canvas");
   if (canvas && canvas.getContext) {
     const ctx = canvas.getContext("2d");
-    // Palette blends ModoForge Launcher (peach, lavender, mint) & VibeFluid (cyan, violet)
-    const colors = ["255,201,168", "208,188,255", "180,240,210", "34,228,255", "123,92,255"];
+    // The calm sunrise palette shared by both apps: peach, lavender, mint, gold and sky
+    const colors = ["255,201,168", "208,188,255", "180,240,210", "255,225,150", "168,216,255"];
     const rings = [];
     let width = 0, height = 0, dpr = 1, running = false, lastMove = 0, last = 0;
 
